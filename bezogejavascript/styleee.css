@@ -1,0 +1,45 @@
+body,
+html {
+    width: 100%;
+    height: 100%;
+    font-family: 'cursive', fantasy;
+    background: url(bzg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+h1 {
+    font-size: 3rem;
+    color: green;
+}
+
+hr {
+    border-color: black;
+    border-width: 3px;
+    max-width: 65px;
+}
+
+.btn {
+    font-weight: 700;
+    border-radius: 300px;
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: red;
+    border-color: white;
+}
+
+.btn-primary:hover {
+    background-color: indigo;
+    border-color: black;
+    border-width: 4px;
+}
+
+.btn-xl {
+    padding: 1rem 2rem;
+
+}
